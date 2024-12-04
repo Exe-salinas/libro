@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el "libro" */
+.book {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+}
+
+/* Estilo para cada página */
+.page {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Títulos de las páginas */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Última página sin borde inferior */
+.page:last-child {
+    border-bottom: none;
+}
+
+/* Estilos adicionales para la presentación */
+.page:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.page:nth-child(even) {
+    background-color: #fff;
+}
